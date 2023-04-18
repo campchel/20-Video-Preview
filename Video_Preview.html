@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Preview</title>
+    <link rel="stylesheet" href="Video_Preview.css">
+</head>
+<body>
+    <div class="navcontainer">
+        <div class="navbar">
+            <h1>VideoLab</h1>
+            <input type="text" placeholder="Search" class="searchbar">
+            <button class="btn">Login</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-L">
+            <video src="Static/pages.mp4" height="400" muted loop onmouseover="playVideo(this)" onmouseout="pauseVideo(this)"></video>
+            <div class="row">
+                <div class="start">
+                    <h1>Pages of Life</h1>
+                    <h3>1.3K Views | June, 18, 2021</h3>
+                    <div class="user">
+                        <img src="Static/user.png" alt="user-circle" class="avatar">
+                        <span class="user-name">Chelsey Campbell</span>
+                    </div>
+                </div>
+                <button class="btn">Subscribe</button>
+            </div>
+        </div>
+        <div class="col-R">
+
+            <h3 class="sub-header">Up Next</h3>
+
+            <div class="video-small">
+                <img src="Static/book.mp4" alt="video placeholder" class="vid-s">
+                <span class="video-title">Life is an Open Book</span>
+            </div>
+
+            <div class="video-small">
+                <img src="Static/reading.mp4" alt="video placeholder" class="vid-s">
+                <span class="video-title">Read YOUR Adventure!</span>
+            </div>
+
+            <div class="video-small">
+                <img src="Static/writing letters.mp4" alt="video placeholder" class="vid-s">
+                <span class="video-title">Letters of Love</span>
+            </div>
+
+            <div class="video-small">
+                <img src="Static/wax seals.mp4" alt="video placeholder" class="vid-s">
+                <span class="video-title">Sealed with a Kiss</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="Video_Preview.js"></script>
+</body>
+</html>
+
+<!-- Had a really hard time pulling up the html, had to improvise, so not sure if this is what you were asking for -->
